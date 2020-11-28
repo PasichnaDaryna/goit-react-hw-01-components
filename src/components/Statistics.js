@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import StatisticsData from './StatisticsData';
+import s from './Statistics.module.css';
 
 
 
@@ -7,7 +8,7 @@ const Statistics = ({title, stats}) => {
     return (
 
         <section>
-             <h2>{title}</h2>
+             <h2 className={s.title}>{title}</h2>
         <StatisticsData stats={stats} />
 
         </section>

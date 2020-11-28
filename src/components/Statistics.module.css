@@ -1,0 +1,33 @@
+.title {
+  font-weight: 400;
+  font-size: 24px;
+
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  /* position: absolute;
+  left: 50%;
+  transform: translateX(-50%); */
+  margin-bottom: 50px;
+}
+
+.label {
+  font-size: 14px;
+  background-color: lightblue;
+}
+
+.quantity {
+  font-weight: 500;
+  font-size: 14px;
+  background-color: lightcoral;
+}
