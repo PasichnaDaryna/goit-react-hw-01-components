@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types'
  import s from './FriendListItem.module.css';
 
-const FriendListItem = ({ avatar, name, isOnline = true }) => {
+const FriendListItem = ({ avatar, name= 'unknown', isOnline = true }) => {
     return (
           <li className={s.item}>
       <span className={isOnline ? `${s.isOnline}` : `${s.isOffline}`}></span>
